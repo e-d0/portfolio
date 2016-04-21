@@ -1,0 +1,90 @@
+.container{
+text-align: center;
+}
+
+.main{
+
+background-image: url(../images/header_background.png);
+background-position: center;
+background-repeat: no-repeat;
+width: 1920px;
+height: 1070px;
+margin: auto;
+
+}
+.about_us{
+height: 730px;
+width: 100%;
+
+}
+.services{
+background-image: url(../images/background_services.png);
+background-position: center;
+background-repeat: no-repeat;
+height: 480px;
+width: 100%;
+}
+.what_we_do{
+height: 1410px;
+width: 100%;
+}
+.all_tablets{
+display:  block ;
+height: 1200px;
+width: 100%;
+ 
+}
+ 
+.tablet_1
+{
+ 
+background-image: url(../images/footer_background_topworks.png);
+background-position: center;
+background-repeat: no-repeat;
+height: 548px;
+width: 237px;}
+.tablet_2
+{
+ 
+background-image: url(../images/footer_joint.png);
+background-position: center;
+background-repeat: no-repeat;
+height: 802px;
+width: 237px;
+}
+.tablet_3
+{
+ 
+background-image: url(../images/footer_kyiv.png);
+background-position: center;
+background-repeat: no-repeat;
+height: 548px;
+width: 237px;
+}
+.tablet_4
+{
+ 
+background-image: url(../images/footer_lable.png);
+background-position: center;
+background-repeat: no-repeat;
+height: 548px;
+width: 237px;
+}
+.tablet_5
+{
+ 
+background-image: url(../images/footer_market.png);
+background-position: center;
+background-repeat: no-repeat;
+height: 802px;
+width: 237px;
+}
+.tablet_6
+{
+ 
+background-image: url(../images/footer_worktop.png);
+background-position: center;
+background-repeat: no-repeat;
+height: 548px;
+width: 237px;
+}

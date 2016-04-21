@@ -1,0 +1,463 @@
+/*
+font-family: 'Playfair Display', serif;
+font-family: 'Lato', sans-serif;
+*/
+/*---------------arrows------------------*/
+.arrows{
+position: fixed;
+z-index: 1;
+bottom: 5%;
+right: 1%;
+}
+.arrow_up , .arrow_down{
+position: relative;
+background: #888888;
+background-color: rgba(0, 0, 0, 0.5);
+height: 50px;
+width: 60px;
+}
+.arrows>div>img{
+position: absolute;
+height: 40px;
+margin-top: -20px;
+margin-left: -25px;
+left: 50%;
+top: 50%;
+ }
+ 
+/*-------------MAIN BLOCK-------------*/
+.main_wrapper{
+text-align: center;
+}
+.main {
+ background: url("../images/main_background.jpg") center no-repeat;
+ background-size: cover;
+ height: 920px;
+ width: 1900px;
+ text-align: center;
+ margin: 0px auto 0px auto;
+}
+.menu {
+ list-style: none;
+ display: inline;
+ padding: 0px;
+ 
+}
+.menu_wrapper {
+background-color: rgba(0, 0, 0, 0.5);
+height: 12%;
+width: 100%;
+}
+
+.menu li{
+ display: inline-block;
+ margin-right: 30px;
+}
+.menu li a {
+ text-transform: uppercase;
+ font-family: 'Lato', sans-serif;
+ font-size: 7.4mm;
+ font-weight: 100;
+ letter-spacing: 4px;
+ text-decoration: none;
+ color: white;
+}
+.menu li:last-child{
+margin-right: 0px;
+}
+#logo {
+position: relative;
+height: auto;
+width: 26%;
+top: 24px;
+right: 10px;
+margin: 0px;
+}
+h1 {
+ position: relative;
+ color: white;
+ text-transform: uppercase;
+ font-family: 'Lato', sans-serif;
+ font-size: 28.2mm;
+ font-weight: 300;
+ letter-spacing: 0.15em;
+ top: 300px;
+}
+/*-------------Message 1 -------------*/
+.message_wrapper{
+display: inline ;
+vertical-align: middle;
+}
+  
+.message_wrapper p{
+ position:relative;
+ z-index: 2;
+ font-size: 13.8mm ;
+ text-transform: uppercase;
+ font-family: 'Playfair Display', serif;
+ font-weight: 400;
+ letter-spacing: 4px;
+ margin-top: 100px;
+ margin-bottom: 100px;
+ vertical-align: middle;
+ white-space: nowrap;
+}
+@media screen and (max-width: 1280px){
+    .message_wrapper p {
+	 margin: 100px 20% 100px 20% ;
+	}
+}
+
+.message_wrapper p:before{
+position: relative;
+content: url(../images/kovichki_left.png);
+padding: 0;
+left: 80px;
+top: 20px;
+opacity: 0.5;  
+vertical-align: middle;
+}
+.message_wrapper p:after{
+position: relative;
+content: url(../images/kovichki_right.png);
+padding: 0;
+right: 80px;
+top: 20px;
+opacity: 0.5;
+vertical-align: middle;
+}
+ 
+/*-------------PICTURES BLOCK -------------*/
+h2{
+ 
+ color: white;
+ text-transform: uppercase;
+ font-family: 'Lato', sans-serif;
+ font-size: 23.2mm;
+ font-weight: 200;
+ letter-spacing: 0.15em;
+}
+.pictures_wrapper{
+ background-color: black; 
+ width: 1900px;
+ margin: 0px auto 0px auto;
+}
+.pictures_main{
+ padding: 30px;
+}
+.pictures {
+display: inline;
+}
+.pictures li{
+display: inline-block;
+margin-right: 15px;
+margin: 4px;
+}
+#pictures_nav_container{
+text-align: right;
+width: 1170px;
+height: auto;
+margin: 0px auto 0px auto;
+}
+.pictures a{
+ color: #b5b5b5;
+ text-decoration: none;
+ font-family: 'Lato', sans-serif;
+ font-size: 4mm;
+ font-weight: 300;
+ text-transform: uppercase;
+}
+.img_container {
+ height: 1200px;
+ width: 1320px;
+ margin: 0px auto 0px auto;
+ white-space: nowrap;
+}
+.img_container div {
+ display: inline-block;
+ vertical-align: top;
+ margin: 10px;
+}
+.img_4{
+position: relative;
+bottom: 150px;
+}
+.img_5{
+
+}
+.img_6{
+position: relative;
+bottom: 70px;
+width: 378px;
+height: 141px;
+background-color: #565656;
+color: white;
+vertical-align: top;
+font-size: 9.5mm;
+font-family: 'Lato', sans-serif;
+text-transform: uppercase;
+line-height: 141px; 
+}
+.img_7{
+position: relative;
+bottom: 150px;
+}
+.img_8{
+position: relative;
+bottom: 320px;
+left: 5px;
+}
+#load_more{
+position: relative;
+background-color: #565656;
+border: none;
+color: #b5b5b5;
+width: 90%;
+bottom: 300px;
+height: 100px;
+font-size: 9.5mm;
+text-transform: uppercase;
+}
+/*-------------SNOWBOARD BLOCK -------------*/
+.snowboard{
+ height: 605px;
+}
+/*-------------ABOUT BLOCK -------------*/
+h3{
+ color: white;
+ text-transform: uppercase;
+ font-family: 'Lato', sans-serif;
+ font-size: 23.2mm;
+ font-weight: 200;
+ letter-spacing: 0.15em;
+ margin: 0px;
+ padding: 100px;
+}
+.container_wrapper{
+ background-color: #666465;
+ width: 1900px;
+ margin: 0px auto 0px auto;
+ padding: 0px 0px 100px 0px;
+}
+ 
+.hanna_swartz, .linda_hutchinson{
+background-color: black;
+color: white;
+display: inline-block;
+vertical-align: middle;
+height: 433px;
+ }
+.hanna_swartz>div  , .linda_hutchinson>div  {
+ display: inline-block;
+ vertical-align: middle;
+ height: 433px;
+ width: 278px;
+  }
+h4{
+color: white;
+ text-transform: uppercase;
+ font-family: 'Lato', sans-serif;
+ font-size: 9.2mm;
+ font-weight: 300;
+ text-align: left;
+}
+.about_inner_text {
+ max-width: 238px;
+ padding: 0px 30px 0px 30px;
+ color: white;
+ font-family: 'Lato', sans-serif;
+ font-size: 3.4mm;
+ font-weight: 300;
+ text-align: left;
+ letter-spacing: 0.02em;
+}
+.about_inner_text p{
+ line-height: 2em;
+ }
+ /*-------------------MESSAGE 2 "PERSONALITY"--------------------*/
+ 
+ .message_2 {
+ position: relative;
+ font-size: 13.8mm ;
+ text-transform: uppercase;
+ font-family: 'Playfair Display', serif;
+ font-weight: 400;
+ letter-spacing: 4px;
+ line-height: 1.7;
+ margin: 100px auto 100px auto ; 
+ width: 100%;
+ }
+ @media screen and (max-width: 1280px){
+    .message_2{
+	 margin: 100px 20% 100px 20% ;
+	}
+}
+  /*------------------- BLOG BLOCK--------------------*/
+h5{
+ color: white;
+ text-transform: uppercase;
+ font-family: 'Lato', sans-serif;
+ font-size: 23.2mm;
+ font-weight: 200;
+ letter-spacing: 0.15em;
+  margin: 0px;
+ padding: 100px ;
+}
+ .blog{
+ height: 1374px;
+ width: 1900px;
+ background: url("../images/blog_background.png") repeat;
+ color: white;
+ margin: 0px auto  0px auto;
+ }
+.blog_1 , .blog_2 , .blog_3 {
+ display: inline-block;
+vertical-align: middle;
+max-width: 379px;
+margin: 9px;
+ 
+ } 
+.blog_text {
+height: 440px;
+display: inline-block;
+vertical-align: middle;
+
+ }
+ .blog_text p{
+ font-family: 'Lato', sans-serif;
+ font-size: 4mm;
+ font-weight: 100;
+ text-align: left;
+ letter-spacing: 0.02em;
+ font-style: italic;
+ line-height: 2;
+ }
+ .blog_footer  {
+ border-top: solid 2px #524360;
+ padding: 3.9mm 0mm 3.9mm 0mm;
+ 
+ }
+ .blog_footer_wrapper{
+  border-top: solid 2px #1c1620;
+ }
+ .blog_footer a {
+ float: right;
+ text-decoration: none;
+ color: white;
+ text-transform: uppercase;
+ }
+ .blog_footer span {
+ float: left;
+ color: #000; /* Fallback for older browsers */
+ color: rgba(255, 255, 255, 0.5);
+ }
+ h6{
+ font-family: 'Lato', sans-serif;
+ font-size: 7.4mm;
+ font-weight: 300;
+ text-transform: uppercase;
+ text-align: left;
+ }
+ .older_posts a{
+ display: block;
+ color: white;
+ font-family: 'Lato', sans-serif;
+ font-size: 7.4mm;
+ font-weight: 300;
+ text-transform: uppercase;
+ text-decoration: none;
+ margin: 50px;
+ }
+ /*------------------LIGHTHOUSE-----------------------*/
+ .lighthouse_bg{
+ height: 1097px;
+ }
+ /*-----------------------CONTACT BLOCK---------------------------*/
+ .contact_wrapper {
+ background-color: black;
+ }
+ .contacts_text p {
+ color: white;
+ font-family: 'Lato', sans-serif;
+ font-size: 4mm;
+ font-weight: 300;
+ text-align: left;
+ letter-spacing: 0.02em;
+ line-height: 1.8;
+ }
+ #contact_header {
+ display: block;
+ color: white;
+ font-family: 'Lato', sans-serif;
+ font-size: 7.4mm;
+ font-weight: 300;
+ text-transform: uppercase;
+ text-align: left;
+}
+.social_contacts {
+text-align: left;
+ position: absolute;
+ bottom: 0;
+}
+.lets_connect_block , .form_wrapper {
+position: relative;
+display: inline-block;
+vertical-align: top;
+width: 35%;
+height: 404px;
+}
+.contacts_block{
+padding-bottom: 100px;
+ 
+width: 100%; /*-----------------посмотреть что будет на 1200 800 и вынести в это разрешение медиа запросом------------------------*/
+}
+/*--------form------*/
+.form_wrapper{
+ height: 400px;
+  
+}
+.form_main{
+ float: right;
+ width: 379px;
+ height: 404px;
+ text-align: right;
+}
+.form_name input, .form_email input, .form_button input {
+width: 369px;
+height: 32px;
+margin-bottom: 16px;
+background-color: #2f2637;
+color: white;
+ text-transform: uppercase;
+ font-family: 'Lato', sans-serif;
+ font-size: 3.9mm;
+ font-weight: 300;
+ display: block;
+ border: none;
+ padding : 10px;
+ }
+ .form_button input{
+	width: 389px;
+	height: 52px;
+ }
+ 
+.form_main textarea {
+width: 367px;
+height: 179px;
+margin-bottom: 16px;
+display: block;
+background-color: #2f2637;
+font-family: 'Lato', sans-serif;
+ font-size: 3.9mm;
+ font-weight: 300;
+ padding : 10px;
+ border: none;
+}
+/*---------BLOGS------------------*/
+.blog{
+text-align: center;
+}
+.blog_1{
+display: inline-block;
+}
+ 

@@ -1,0 +1,5 @@
+.main{
+height: 1072px;
+width: 100%;
+background-image: url(../images/header_background.png) 1920px 1072px no-repeat ;
+}

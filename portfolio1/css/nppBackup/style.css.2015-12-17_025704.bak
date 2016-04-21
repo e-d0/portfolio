@@ -1,0 +1,8 @@
+.container{
+text-align: center;
+}
+
+.main{
+ 
+background-image: url(../images/header_background.png) center;
+}

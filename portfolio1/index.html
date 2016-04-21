@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	 
+	<title></title>
+	<link type="text/css" rel="stylesheet" href="css/normalize.css"/>
+	<link type="text/css" rel="stylesheet" href="css/style.css"/>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<script src="js/jquery.js" type="text/javascript" ></script>
+	<script src="js/jquery.waypoints.js" type="text/javascript" ></script>
+	<script>
+		$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 6000);
+        return false;
+      }
+    }
+  });
+  
+ 
+  $('.services_wrapper').css({'opacity': 0});
+  $('.what_we_do, .tablets, .about_us').css({'opacity': 0,
+					  'height': 0});
+  
+  
+  var waypoint = new Waypoint({
+  element: document.getElementById('waypoint_about_us'),
+  
+  handler: function(direction){
+	$('.about_us').animate({"opacity": "+=1",
+							"height": "+=450"}, 400, function(){
+			 waypoint.disable();
+			 console.log("about us animation done")
+	})
+  },
+  offset: '20%'
+   })
+   
+   
+   var waypointServices = new Waypoint({
+  element: document.getElementById('waypoint_services_wrapper'),
+  handler: function(direction){
+	$('.services_wrapper').animate({"opacity": "+=1"
+							}, 400, function(){
+			 waypointServices.disable();
+			  console.log("animation done")
+	})
+	$('.services').animate({"opacity": "+=1"}, 500, function(){
+			 waypointServices.disable();
+			  console.log("services animation done")
+	})
+	
+  },
+  offset: '10%'
+   })
+    
+   var waypointWhatWeDo = new Waypoint({
+  element: document.getElementById('waypoint_what_we_do'),
+  handler: function(direction){
+	$('.what_we_do').animate({"opacity": "+=1",
+							"height": "+=1380"}, 600, function(){
+			 waypointWhatWeDo.disable();
+			 console.log("what we do animation done")
+	})
+  } 
+      })
+	var waypointTablets = new Waypoint({
+  element: document.getElementsByClassName("tablets"),
+  handler: function(direction){
+	$('.tablets').animate({"opacity": "+=1",
+							"height": "+=474"}, 5500, function(){
+			 waypointTablets.disable();
+			 console.log("tablets animation done") 
+	})
+  },
+	offset: '40%' 
+      })  
+	
+  
+});
+	</script>
+</head>
+<body>
+<div class="container">
+	<div class="main">
+		<img id="logo_main" src="images/logo_save.png" width="70px" height="70px" alt="">
+		<h1>Working<br>with Design lab</h1>
+		<div class="main_text">
+			<p>We have been helping startups launch and grow their businesses.<br>
+			We help you to fill the gap between development,<br> 
+			design and product management.
+			
+			</p>
+			 
+		</div>
+		<a href="#top"><img id="header_scroll" src="images/header_shape _slice.png" width="23px" height="37px"  alt=""></a>
+	</div>
+	<div id="waypoint_about_us" class="about_us">
+		<h2>About us</h2>
+		<div class="about_us_text">
+			<p  > When you work with us, you are part of a team of committed collaborators.<br> 
+			All aspects of our software development process are integrated, iterative and agile.<br>
+			 <br>
+			 <br>
+			 Our approach unifies design, development and<br> 
+					product management to create exceptional products.<br> 
+					We start each project by understanding your business goals,<br> 
+					the user's needs and the product requirements.<br> 
+					Then we help translate them into effective and elegant solutions.
+			</p>
+		</div>
+	</div>
+	<div id= "waypoint_services_wrapper" class="services_wrapper">
+		<div class="services">
+			<span id="header_services">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Services
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+			</span>
+				<p>Before we sign a contract or write a line of code our team will spend the necessary<br> time needed to understand your product vision.<br> 
+				The outcome of this scoping session is a proposal or high-level statement of work.<br> 
+				Based on your requirements, we can provide a complete offering or just the pieces you need.<br> 
+			</p>
+		</div>
+	</div>
+	<div id="waypoint_what_we_do" class="what_we_do_wrapper">
+		<div   class="what_we_do">
+		    <h4>what we do</h4>
+			<img src="images/what_we_do_logo_design.png" alt=""><br>
+			<span>Design</span><a name="top"></a>
+			<p>Our design practice offers a full range of services including branding strategy,
+				interaction and visual design and user experience testing. 
+					Throughout your project, our designers create and implement visual designs and workflows, 
+					solicit user feedback, and work with you to make sure what gets built is what is needed. 
+					
+			</p>
+			<img src="images/what_we_do_development.png" alt=""><br>
+			<span>Development</span>
+				<p>All engineers are fluent in the latest enterprise, mobile and web development technologies. 
+				They collaborate with your team to write, test, and improve code on a daily basis, using proven practices such as test-driven development and pair programing.</p>
+			<img src="images/what_we_do_product_managment.png" alt=""><br>
+			<span>Product Management</span>
+				<p>Planning and development is iterative. 
+				Because we are constantly coding and testing, the products we build are always ready to go live. 
+				This iterative process allows for changes as business requirements evolve. 
+			</p>
+		</div>
+	</div>
+	<div id="waypoint_tablets" class="tablets">
+	 			   
+	 <ul>
+	 	<li id="tablet_1"><a href="">topworks</a></li>
+	 	<li id="tablet_2"><a href="">join</a></li>
+	 	<li id="tablet_3"><a href="">market</a></li>
+	 </ul>
+	 <ul>
+	 	<li id="tablet_4"><a href="">worktop</a></li>
+	 	<li id="tablet_5"><a href="">lable</a></li>
+	 	<li id="tablet_6"><a href="">moscow</a></li>
+	 </ul>
+	</div>
+	<div class="contact_us">
+		<h5>Contact us</h5>
+			<p>Planning and development is iterative. Because we are constantly coding and <br>
+			testing, the products we build are always ready to go live. This iterative process <br>
+			allows for changes as business requirements evolve. </p>
+		<button>CONTACT US</button>
+	</div>
+	<div class="footer_block">
+		<img src="images/footer_logo.png" alt="">
+		<span id="footer">&copy; 2015. All Rights Ellipsis.com</span>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+.container{
+text-align: center;
+}
+
+.main{
+height: 1072px;
+width: 1920px;
+background-image: url(../images/header_background.png);
+background-position: center;
+  
+}

@@ -1,0 +1,212 @@
+
+body{
+margin: 0px;
+padding: 0px;
+}
+.container{
+text-align: center;
+}
+/*---------------HEADER----------------*/
+h1{
+
+color: white;
+font-size: 42px;
+text-transform: uppercase;
+padding: 40px;
+letter-spacing: 15px;
+}
+.main_text{
+color: white;
+font-size: 13px;
+text-transform: uppercase;
+line-height: 18px;
+}
+#header_scroll{
+margin-top: 250px;
+}
+.main{
+font-family: 'Open Sans', sans-serif;
+letter-spacing: 4px;
+background-image: url(../images/header_background.png);
+background-position: center;
+background-repeat: no-repeat;
+width: 1920px;
+height: 1070px;
+margin: auto;
+
+}
+
+#logo_main{
+margin-top: 286px;
+}
+/*---------------"ABOUT US" BLOCK----------------*/
+.about_us{
+max-height: 630px;
+width: 100%;
+font-family: 'Open Sans', sans-serif;
+letter-spacing: 2px;
+}
+h2{
+font-family: 'Open Sans', sans-serif;
+font-size: 25px;
+background-color: white;
+text-transform: uppercase;
+z-index: 99;
+position: relative;
+top: 175px;
+width: 420px;
+margin: auto;
+}
+.about_us_text{
+margin: 160px auto;
+height: 310px;
+max-width: 1240px;
+font-size: 13px;
+}
+.about_us_text p{
+max-width: 910px;
+margin: 75px 160px 50px 160px;
+border: 1px solid black;
+padding: 50px 100px 50px 100px;
+}
+/*---------------"SERVICES" BLOCK----------------*/
+.services{
+background-image: url(../images/background_services.png);
+background-position: center;
+background-repeat: no-repeat;
+height: 480px;
+width: 100%;
+}
+/*---------------"WHAT WE DO" BLOCK----------------*/
+h4{
+ font-weight: bold;
+ background-color: white;
+ text-transform: uppercase;
+ z-index: 99;
+ position: relative;
+ top:   -17px;
+ width: 420px;
+ margin: auto;
+ font-size: 25px;
+}
+.what_we_do{
+font-family: 'Open Sans', sans-serif;
+border: 1px solid black;
+width: 910px;
+margin: 160px auto;
+letter-spacing: 2px;
+}
+.what_we_do span{
+display: block;
+margin: 40px;
+text-transform: uppercase;
+font-size: 15px;
+font-weight: bold;
+letter-spacing: 4px;
+}
+.what_we_do p{
+max-width: 910px;
+padding:  0px 100px 50px 100px;
+}
+.what_we_do img{
+margin-top: 90px;
+}
+/*---------------"TABLETS" BLOCK----------------*/
+.all_tablets{
+ height: 100%;
+ width: 1920px;
+ margin: auto;
+ text-align: left;
+}
+
+
+ul{
+ height: 237px;
+ width: 1920px;	
+ padding: 0px;
+}
+ ul li {
+		list-style: none;
+		display: inline-block;
+		margin: 1px;
+	}
+#tablet_1
+{
+  
+background-image: url(../images/footer_background_topworks.png);
+background-position: center;
+background-repeat: no-repeat;
+height: 237px;
+width: 548px;}
+#tablet_2
+{
+ 
+background-image: url(../images/footer_joint.png);
+background-position: center;
+background-repeat: no-repeat;
+height: 237px;
+width: 802px;
+}
+#tablet_3
+{
+ 
+background-image: url(../images/footer_market.png);
+background-position: center;
+background-repeat: no-repeat;
+height: 237px;
+width: 548px;
+}
+#tablet_4
+{
+ 
+background-image: url(../images/footer_worktop.png);
+background-position: center;
+background-repeat: no-repeat;
+height: 237px;
+width: 548px;
+}
+#tablet_5
+{
+ 
+background-image: url(../images/footer_label.png);
+background-position: center;
+background-repeat: no-repeat;
+height: 237px;
+width: 802px;
+}
+#tablet_6
+{
+ 
+background-image: url(../images/footer_kyiv.png);
+background-position: center;
+background-repeat: no-repeat;
+height: 237px;
+width: 548px;
+}
+/*-----------"CONTACT US" BLOCK-----------*/
+h5{
+ background-color: white;
+ text-transform: uppercase;
+ z-index: 99;
+ position: relative;
+ top:   -63px;
+ width: 420px;
+ margin: auto;
+ font-weight: bold;
+ font-size: 25px;
+}
+.contact_us {
+font-family: 'Open Sans', sans-serif;
+letter-spacing: 2px;
+border: 1px solid black;
+height: 290px;
+width: 910px;
+margin: 160px auto;
+padding: 50px 100px 50px 100px;
+}
+.contact_us p{
+ 
+margin: 75px 160px 50px 160px;
+border: 1px solid black;
+}
+}

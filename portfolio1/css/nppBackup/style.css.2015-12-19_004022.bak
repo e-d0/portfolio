@@ -1,0 +1,137 @@
+
+body{
+margin: 0px;
+padding: 0px;
+}
+.container{
+text-align: center;
+}
+
+.main{
+
+background-image: url(../images/header_background.png);
+background-position: center;
+background-repeat: no-repeat;
+width: 1920px;
+height: 1070px;
+margin: auto;
+
+}
+
+#logo_main{
+margin-top: 286px;
+}
+.about_us{
+height: 730px;
+width: 100%;
+}
+h2{
+background-color: white;
+text-transform: uppercase;
+ z-index: 99;
+ position: relative;
+ top: 170px;
+ width: 420px;
+ margin: auto;
+}
+.about_us_text{
+margin: 160px auto;
+border: 1px solid black;
+width: 910px;
+height: 310px;
+}
+
+.services{
+background-image: url(../images/background_services.png);
+background-position: center;
+background-repeat: no-repeat;
+height: 480px;
+width: 100%;
+}
+.what_we_do{
+border: 1px solid black;
+height: 1180px;
+width: 910px;
+margin: 160px auto;
+}
+h4{
+background-color: white;
+text-transform: uppercase;
+ z-index: 99;
+ position: relative;
+ top: 170px;
+ width: 420px;
+ margin: auto;
+}
+
+.all_tablets{
+ height: 100%;
+ width: 1920px;
+ margin: auto;
+ text-align: left;
+}
+
+ul{
+ height: 237px;
+ width: 1920px;	
+ padding: 0px;
+}
+ ul li {
+		list-style: none;
+		display: inline-block;
+		 
+		margin: 1px;
+	}
+#tablet_1
+{
+  
+background-image: url(../images/footer_background_topworks.png);
+background-position: center;
+background-repeat: no-repeat;
+height: 237px;
+width: 548px;}
+#tablet_2
+{
+ 
+background-image: url(../images/footer_joint.png);
+background-position: center;
+background-repeat: no-repeat;
+height: 237px;
+width: 802px;
+}
+#tablet_3
+{
+ 
+background-image: url(../images/footer_market.png);
+background-position: center;
+background-repeat: no-repeat;
+height: 237px;
+width: 548px;
+}
+#tablet_4
+{
+ 
+background-image: url(../images/footer_worktop.png);
+background-position: center;
+background-repeat: no-repeat;
+height: 237px;
+width: 548px;
+}
+#tablet_5
+{
+ 
+background-image: url(../images/footer_label.png);
+background-position: center;
+background-repeat: no-repeat;
+height: 237px;
+width: 802px;
+}
+#tablet_6
+{
+ 
+background-image: url(../images/footer_kyiv.png);
+background-position: center;
+background-repeat: no-repeat;
+height: 237px;
+width: 548px;
+}
