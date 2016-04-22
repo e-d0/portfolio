@@ -2,12 +2,10 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Title</title>
 	<link type="text/css" rel="stylesheet" href="css/normalize.css"/>
 	<link rel="stylesheet"  type="text/css" href="css/scrollyeah.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	
-		<link href='https://fonts.googleapis.com/css?family=Lobster%7CExo+2:400,700,400italic,500italic,500&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Lobster|Exo+2:400,700,400italic,500italic,500&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 		<script src="js/jquery.js" type="text/javascript" ></script>
 		<script src="js/scrollyeah.min.js"></script>
 	 
