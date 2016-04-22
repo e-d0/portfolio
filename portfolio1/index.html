@@ -17,7 +17,7 @@
       if (target.length) {
         $('html, body').animate({
           scrollTop: target.offset().top
-        }, 6000);
+        }, 5000);
         return false;
       }
     }
@@ -74,7 +74,7 @@
   element: document.getElementsByClassName("tablets"),
   handler: function(direction){
 	$('.tablets').animate({"opacity": "+=1",
-							"height": "+=474"}, 5500, function(){
+							"height": "+=474"}, 3500, function(){
 			 waypointTablets.disable();
 			 console.log("tablets animation done") 
 	})
@@ -89,7 +89,7 @@
 <body>
 <div class="container">
 	<div class="main">
-		<img id="logo_main" src="images/logo_save.png" width="70px" height="70px" alt="">
+		<img id="logo_main" src="images/logo_save.png" width="70" height="70" alt="">
 		<h1>Working<br>with Design lab</h1>
 		<div class="main_text">
 			<p>We have been helping startups launch and grow their businesses.<br>
@@ -99,7 +99,7 @@
 			</p>
 			 
 		</div>
-		<a href="#top"><img id="header_scroll" src="images/header_shape _slice.png" width="23px" height="37px"  alt=""></a>
+		<a href="#top"><img id="header_scroll" src="images/header_shape_slice.png" width="23" height="37"  alt=""></a>
 	</div>
 	<div id="waypoint_about_us" class="about_us">
 		<h2>About us</h2>
