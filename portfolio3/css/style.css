@@ -39,13 +39,16 @@ margin-left: 40px;
 .nav{
 float: right;
 }
-.nav li{
+.nav ul{
+}
+ 
+.nav ul li{
 display: inline-block;
 padding: 5px;
-margin: 16px 40px auto auto;
+margin: 5px 40px auto auto;
 }
 
-.nav li a{
+.nav ul li a{
 text-decoration: none;
 font-family: 'PT Sans', sans-serif;
 color: #a0763a;
@@ -53,7 +56,7 @@ text-transform: uppercase;
 font-weight: 700;
 font-size: 3.9mm;
 }
-.nav li a:hover{
+.nav ul li a:hover{
 border-top: 3px solid #a0763a;
 border-bottom: 3px solid #a0763a;
 color: white;
@@ -210,6 +213,7 @@ color: #a0763a;
   .menu_categories ul li a:hover{
 	color: white;
 	}   
+ 
  h3{
  font-size: 17.3mm;
  font-family: 'Kaushan Script', cursive;
@@ -218,6 +222,10 @@ color: #a0763a;
  text-decoration: underline;
  text-align: center;
  margin-top: 10px;
+  
+ }
+ .gallery>h3{
+ margin-bottom: 20px;
  }
  /*--------Menu selection with price-------*/
  .food_menu_position img {
@@ -406,7 +414,7 @@ left: 150px;
   border: 2px solid white;
   padding: 10px;
  }
-#team-name{
+.team-name{
  color: #a0763a;
  font-family: 'PT Sans', sans-serif;
  font-size: 6.4mm;
@@ -418,6 +426,9 @@ left: 150px;
 text-align: center;
 padding: 50px 0 100px 0;
 background: #bbbbbb;
+}
+.blog>h3{
+margin-bottom: 30px;
 }
 .blog_1, .blog_2, .blog_3{
 display: inline-block;
@@ -436,6 +447,9 @@ line-height: 1.3em;
 .blog_text a{
 color: red;
 text-decoration: none;
+}
+.blog_scroll{
+padding-left: 0;
 }
 .blog_scroll li{
 display: inline-block;
@@ -509,7 +523,7 @@ text-transform: uppercase;
  margin-right: 20px;
   margin-top: 10px;
  }
-#day_week{
+.day_week{
  color: #a0763a;
  }
  .social_contacts{

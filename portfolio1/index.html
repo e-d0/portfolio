@@ -13,7 +13,7 @@
   $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      target = target.length ? target : $('[id=' + this.hash.slice(1) +']');
       if (target.length) {
         $('html, body').animate({
           scrollTop: target.offset().top
@@ -99,7 +99,7 @@
 			</p>
 			 
 		</div>
-		<a href="#top"><img id="header_scroll" src="images/header_shape_slice.png" width="23" height="37"  alt=""></a>
+		<a href="#uptop"><img id="header_scroll" src="images/header_shape_slice.png" width="23" height="37"  alt=""></a>
 	</div>
 	<div id="waypoint_about_us" class="about_us">
 		<h2>About us</h2>
@@ -131,7 +131,7 @@
 		<div   class="what_we_do">
 		    <h4>what we do</h4>
 			<img src="images/what_we_do_logo_design.png" alt=""><br>
-			<span>Design</span><a name="top"></a>
+			<span>Design</span><a id="uptop"></a>
 			<p>Our design practice offers a full range of services including branding strategy,
 				interaction and visual design and user experience testing. 
 					Throughout your project, our designers create and implement visual designs and workflows, 

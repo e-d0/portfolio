@@ -375,6 +375,8 @@ vertical-align: middle;
  /*-----------------------CONTACT BLOCK---------------------------*/
  .contact_wrapper {
  background-color: black;
+ max-width: 1900px;
+ margin: 0 auto 0 auto;
  }
  .contacts_text p {
  color: white;

@@ -2,17 +2,18 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<title>Modern look</title>
 	<link type="text/css" rel="stylesheet" href="css/normalize.css"/>
 	<link type="text/css" rel="stylesheet" href="css/style.css"/>
-	<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Lato:400,100,300,700,900' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900%7CLato:400,100,300,700,900' rel='stylesheet' type='text/css'>
 		<script src="js/jquery.js" type="text/javascript" ></script>
 	<script src="js/jquery.waypoints.js" type="text/javascript" ></script>
 	<script>
 		$(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash); console.log (target);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');console.log (target.length);
+      var target = $(this.hash);  
+      target = target.length ? target : $('[id=' + this.hash.slice(1) +']');
       if (target.length) {
         $('html, body').animate({
           scrollTop: target.offset().top
@@ -36,7 +37,7 @@
   var currentWindowPositionY = $(window).scrollTop();
   var offsets=[];
   
-  $('a[name]').each(function(index, element){ offsets.push(
+  $('a[id]').each(function(index, element){ offsets.push(
   			$(element).offset().top
 			)
 			});
@@ -44,12 +45,12 @@
  		if(  (offsets[i] < currentWindowPositionY) && (offsets[i+1] >= currentWindowPositionY)){
 	  	$('html, body').animate({
           scrollTop: offsets[i] 
-        }, 800, function(){console.log( $(window).scrollTop() )}); console.log("yes up"); 
+        }, 800); 
 																					} 
 		else if( offsets[offsets.length-1] <= currentWindowPositionY ){
 			$('html, body').animate({
           scrollTop: offsets[offsets.length-1]  
-        }, 300, function(){console.log( $(window).scrollTop() )}); console.log("last"); 
+        }, 300);  
 		};
 		
 								}
@@ -59,7 +60,7 @@
   var currentWindowPositionY = $(window).scrollTop();
   var offsets=[];
   
-    $('a[name]').each(function(index, element){ offsets.push(
+    $('a[id]').each(function(index, element){ offsets.push(
   			$(element).offset().top
 			)
 			});
@@ -67,12 +68,12 @@
  		if(  (offsets[i] <= currentWindowPositionY) && (offsets[i+1] >= currentWindowPositionY)){
 	  	$('html, body').animate({
           scrollTop: offsets[i+1]+30 
-        }, 3000, function(){console.log( $(window).scrollTop() )}); console.log("yes down"); 
+        }, 3000);
 																					} 
 		  else if( ( offsets[0] >currentWindowPositionY >0)  ){
 			$('html, body').animate({
           scrollTop: offsets[0] 
-        }, 500, function(){console.log( $(window).scrollTop() )}); console.log("first"); 
+        }, 500); 
 		}; 
 		
 								}
@@ -81,7 +82,7 @@
 	$(window).on("scroll", function(){
 	var currentWindowPositionY = $(window).scrollTop();
     var offsets=[];
-      $('a[name]').each(function(index, element){ offsets.push(
+      $('a[id]').each(function(index, element){ offsets.push(
   			$(element).offset().top)});		
 			
 	if (offsets[offsets.length-1] < currentWindowPositionY){
@@ -102,10 +103,6 @@
 	})
 	
 	</script>
-	
-	
-	
-	<title></title>
 </head>
 <body>
 	<div class="main_wrapper">
@@ -118,7 +115,7 @@
 		  	<ul class="menu">
 		  				<li><a href="#pictures">portfolio</a></li>
 		  				<li><a href="#about">about</a></li>
-		  				<li id="logo"><img src="images/logo_E.png" width="61px" height="67px" alt=""></li>
+		  				<li id="logo"><img src="images/logo_E.png" width="61" height="67" alt=""></li>
 		  				<li><a href="#blog">blog</a></li>
 		  				<li><a href="#contact">contact</a></li>
 		  	 </ul>
@@ -132,7 +129,7 @@
 		</div>
 		<div class="pictures_wrapper">
 		<div class="pictures_main">
-			<a name="pictures"></a>
+			<a id="pictures"></a>
 			<h2>Pictures</h2>
 				<div class="pictures_menu_wrapper">
 					<div id="pictures_nav_container">
@@ -159,7 +156,7 @@
 		</div>
 		<div class="snowboard"><img src="images/snow_boarder.jpg" alt=""></div>
 		<div class="container_wrapper">
-		<a name="about"></a>
+		<a id="about"></a>
 		<h3>ABOUT</h3>
 		<div class="container_about">	 
 			<div class="hanna_swartz">
@@ -188,7 +185,7 @@
 		</div>
 		 
 	<div class="blog">
-		<a name="blog"></a>
+		<a id="blog"></a>
 		<h5>Blog</h5>
 		<div class="blog_1">
 			<img src="images/blog_1.jpg" alt="">
@@ -256,11 +253,12 @@
 		<div class="older_posts">
 		<a href="">Older posts</a>
 		</div>
+	</div>
 			<div class="lighthouse_bg">
 				<img src="images/lighthouse_bg.jpg" alt="">
 			</div>
 		<div class="contact_wrapper">
-		<a name="contact"></a>
+		<a id="contact"></a>
 		<h5>Contact</h5>
 		<div class="contacts_block">
 		<div class="lets_connect_block">
@@ -292,10 +290,12 @@
 			<div class="form_name"><input  type="text" placeholder="YOUR NAME"></div>
 			<div class="form_email"><input  type="email" placeholder="YOUR EMAIL"></div>
 			<div class="form_button"><input type="submit" value="submit"></div>  
-				</div>
+		</form>
 			</div>
 		</div>
+	
 	<div class="footer"><img src="images/footer_background.jpg" alt=""></div>
 	</div>
+   </div>
 </body>
 </html>
