@@ -144,11 +144,15 @@ header {
 	top: 131px;
 }
 .nav-left{
-	background: url('../img/slider-left.png') top left no-repeat;
+	background-image: url(../img/sprite-sliders.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
 	left: -10px;
 }
 .nav-right{
-	background: url('../img/slider-right.png') top right no-repeat;
+	background-image: url(../img/sprite-sliders.png);
+	background-repeat: no-repeat;
+	background-position: -54px 0px;
 	right: -10px;
 }
 .slider-nav{

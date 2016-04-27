@@ -9,22 +9,33 @@ z-index: 1;
 bottom: 5%;
 right: 1%;
 }
-.arrow_up , .arrow_down{
+.arrow_up_wrapper , .arrow_down_wrapper{
 position: relative;
 background: #888888;
 background-color: rgba(0, 0, 0, 0.5);
 height: 50px;
 width: 60px;
 }
-.arrows>div>img{
-position: absolute;
+.arrow_up{
+position: relative;
+width: 50px;
 height: 40px;
-margin-top: -20px;
-margin-left: -25px;
-left: 50%;
-top: 50%;
- }
- 
+top: 5px;
+margin: 5px auto auto auto;
+background-image: url(../images/arrow_sprite.png);
+background-repeat: no-repeat;
+background-position: -53px 0px;
+}
+.arrow_down{
+position: relative;
+width: 50px;
+height: 40px;
+top: 5px;
+margin: auto auto 5px auto;
+background-image: url(../images/arrow_sprite.png);
+background-repeat: no-repeat;
+background-position: -1px 0px;
+}
 /*-------------MAIN BLOCK-------------*/
 .main_wrapper{
 text-align: center;
@@ -46,7 +57,7 @@ text-align: center;
 .menu_wrapper {
 background-color: rgba(0, 0, 0, 0.5);
 height: 12%;
-width: 100%;
+width: 1900px;
 }
 
 .menu li{
@@ -87,6 +98,7 @@ h1 {
 .message_wrapper{
 display: inline ;
 vertical-align: middle;
+width: 1900px;
 }
   
 .message_wrapper p{
@@ -102,9 +114,10 @@ vertical-align: middle;
  vertical-align: middle;
  white-space: nowrap;
 }
-@media screen and (max-width: 1280px){
+@media screen and (max-width: 1024px){
     .message_wrapper p {
 	 margin: 100px 20% 100px 20% ;
+	 
 	}
 }
 
@@ -129,7 +142,6 @@ vertical-align: middle;
  
 /*-------------PICTURES BLOCK -------------*/
 h2{
- 
  color: white;
  text-transform: uppercase;
  font-family: 'Lato', sans-serif;
@@ -220,8 +232,11 @@ text-transform: uppercase;
 }
 /*-------------SNOWBOARD BLOCK -------------*/
 .snowboard{
+ width: 1900px;
  height: 605px;
-}
+ background: url(../images/snow_boarder.jpg) center no-repeat;
+ background-size: cover;
+ }
 /*-------------ABOUT BLOCK -------------*/
 h3{
  color: white;
@@ -277,6 +292,7 @@ color: white;
  /*-------------------MESSAGE 2 "PERSONALITY"--------------------*/
  
  .message_2 {
+ width: 1900px;
  position: relative;
  font-size: 13.8mm ;
  text-transform: uppercase;
@@ -285,13 +301,8 @@ color: white;
  letter-spacing: 4px;
  line-height: 1.7;
  margin: 100px auto 100px auto ; 
- width: 100%;
- }
- @media screen and (max-width: 1280px){
-    .message_2{
-	 margin: 100px 20% 100px 20% ;
-	}
 }
+ 
   /*------------------- BLOG BLOCK--------------------*/
 h5{
  color: white;
@@ -375,7 +386,7 @@ vertical-align: middle;
  /*-----------------------CONTACT BLOCK---------------------------*/
  .contact_wrapper {
  background-color: black;
- max-width: 1900px;
+ width: 1900px;
  margin: 0 auto 0 auto;
  }
  .contacts_text p {
@@ -401,6 +412,29 @@ text-align: left;
  position: absolute;
  bottom: 0;
 }
+.social_contacts_icons{
+width: 64px;
+height: 64px;
+margin: auto;
+background-image: url(../images/icon_sprites.png);
+background-repeat: no-repeat;
+display: inline-block;
+}
+#icon_1{background-position: 0px 0px;}
+#icon_2{background-position: -64px 0px;}
+#icon_3{background-position: -128px 0px;}
+#icon_4{background-position: -192px 0px;}
+#icon_5{background-position: -256px 0px;}
+#icon_6{background-position: -320px 0px;}
+#icon_7{background-position: -384px 0px;}
+#icon_8{background-position: 0px -64px;}
+#icon_9{background-position: -64px -64px;}
+#icon_10{background-position: -128px -64px;}
+#icon_11{background-position: -192px -64px;}
+#icon_12{background-position: -256px -64px;}
+#icon_13{background-position: -320px -64px;}
+#icon_14{background-position: -384px -64px;}
+
 .lets_connect_block , .form_wrapper {
 position: relative;
 display: inline-block;

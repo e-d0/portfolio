@@ -25,6 +25,9 @@ h1{
 .about {
 margin-bottom: 30px;
 }
+.about span a{
+text-decoration: none;
+}
 .about span a >img{
 	width: 30px;
 	height: 30px;

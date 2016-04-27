@@ -70,13 +70,13 @@ $(function() {
 					$(element).offset().top)});		
 					
 			if (offsets[offsets.length-1] < currentWindowPositionY){
-					$('.arrow_down').css( 'display', 'none' );
+					$('.arrow_down_wrapper').css( 'display', 'none' );
 			}else if (offsets[0] > currentWindowPositionY){
-					$('.arrow_up').css( 'display', 'none' );
+					$('.arrow_up_wrapper').css( 'display', 'none' );			
 			}
 			else{
-					$('.arrow_down').css( 'display', 'block' );
-					$('.arrow_up').css( 'display', 'block' );
+					$('.arrow_down_wrapper').css( 'display', 'block' );
+					$('.arrow_up_wrapper').css( 'display', 'block' );
 			}
 	});
 })

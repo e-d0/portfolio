@@ -13,9 +13,6 @@
 }
 
 /*-----all documenr properties------*/
-body{
-
-}
 .container{
 margin: 0px;
 padding: 0px;
@@ -52,19 +49,29 @@ background-image: url(../images/header_background.jpg);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-height: 1070px;
+height: 1000px;
+margin: auto;
+padding: 80px auto auto auto;
+}
+.wrapper_logo_main{
+text-align: center;
+height: 250px;
 margin: auto;
 }
 #logo_main{
-margin-top: 286px;
+display: block;
+position: relative;
+text-align: center;
+margin: auto;
+top: 230px;
+height: 70px;
+width: 65px;
+background-image: url(../images/sprite.png);
+background-repeat: no-repeat;
+background-position: 0 0;
 }
-
-
-
-
 /*---------------"ABOUT US" BLOCK----------------*/
 .about_us{
- 
 width: 100%;
 font-family: 'Open Sans', sans-serif;
 letter-spacing: 2px;
@@ -197,6 +204,31 @@ line-height: 1.8;
 .what_we_do img{
 margin-top: 90px;
 }
+.what_we_do_managment_logo{
+height: 90px;
+width: 80px;
+margin: auto;
+background-image: url(../images/sprite.png);
+background-repeat: no-repeat;
+background-position: -227px -0px;
+}
+.what_we_do_development_logo{
+height: 76px;
+width: 79px;
+margin: auto;
+background-image: url(../images/sprite.png);
+background-repeat: no-repeat;
+background-position: -66px 0px;
+}
+.what_we_do_design_logo{
+height: 91px;
+width: 80px;
+margin: 60px auto auto auto;
+background-image: url(../images/sprite.png);
+background-repeat: no-repeat;
+background-position: -146px -0px;
+}
+
 /*---------------"TABLETS" BLOCK----------------*/
 .tablets{
  text-align: center;
@@ -329,17 +361,21 @@ margin-top: 0px;
 font-size: 20px;
 }
 /*----------------FOOTER BLOCK---------------*/
-#footer{
- font-family: 'Open Sans', sans-serif;
- padding: 15px;
-}
-.footer{
  
-}
-.footer_block img{
+.footer_block_logo{
+ display: inline-block;
+ width: 36px;
+ height: 37px;
+ background-image: url(../images/sprite.png);
+ background-repeat: no-repeat;
+ background-position: -306px 0px;
  position: relative;
- margin: 10px;
- top: 20px;
+ vertical-align: middle;
+}
+#footer{
+ display: inline-block;
+ font-family: 'Open Sans', sans-serif;
+ vertical-align: middle;
 }
 
 
