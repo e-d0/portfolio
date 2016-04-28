@@ -348,8 +348,13 @@ border-bottom: 3px solid #a0763a;
  }
 .testimonial_nav li   {
  display: inline-block;
- cursor:pointer;	 
-  }
+ cursor:pointer;
+ width: 15px;
+ height: 15px; 
+ background-image: url(../images/icon_sprites.png);
+ background-repeat: no-repeat;
+ background-position: -290px -120px; 
+ }
  
  .testimonial_nav {
     padding: 20px  ;
@@ -390,30 +395,42 @@ text-align: center;
 } 
 .contacts_icons_wrapper {
 display: inline-block;
-width: 225px;
-height: 320px;
+width: 220px;
+height: 290px;
 background: #a0763a;
 position: relative;
-bottom: 16px;
+bottom: 98px;
 padding: 10px;
+line-height: 1px;
 }
-  #contacts_icons a ~ a{
+#contacts_icons a ~ a{
 position: relative;
-left:50px;
+left:55px;
   }
 #contacts_icons a~a~a{
 position: relative;
-left: 100px;
+left: 110px;
  }
 #contacts_icons a~a~a~a{
 position: relative;
-left: 150px;
+left: 165px;
   }
-#contacts_icons {
-  text-align: left;
-  border: 2px solid white;
-  padding: 10px;
+#contacts_icons a {
+ text-align: left;
+ border: 2px solid white;
+ padding: 1px;
+ width: 47px;
+ height: 66px;
+ background-image: url(../images/icon_sprites.png);
+ background-repeat: no-repeat;
+ display: block;
  }
+ 
+ #team_twitter{background-position: -152px -65px;}
+ #team_facebook{background-position: 0px -65px;}
+ #team_google{background-position: -50px -65px;}
+ #team_linkedin{background-position: -100px -65px;}
+ 
 .team-name{
  color: #a0763a;
  font-family: 'PT Sans', sans-serif;
@@ -452,8 +469,13 @@ text-decoration: none;
 padding-left: 0;
 }
 .blog_scroll li{
-display: inline-block;
-cursor:pointer;
+ display: inline-block;
+ cursor:pointer;
+ width: 15px;
+ height: 15px; 
+ background-image: url(../images/icon_sprites.png);
+ background-repeat: no-repeat;
+ background-position: -288px -118px; 
 }
 
 h6{
@@ -492,48 +514,77 @@ text-transform: uppercase;
  font-size: 5.4mm;
  }
  #contacts_place{
- background: url("../images/contacts_place.png") no-repeat;
+ background-image: url(../images/icon_sprites.png);
+ background-repeat: no-repeat;
+ background-position: -40px -40px;
  width: 12px;
- height: 27px;
+ height: 24px;
  float: left;
  margin-right: 20px;
- margin-top: 10px;
+ top: 2px;
+ position: relative;
   }
  #contacts_mail{
- background: url("../images/contacts_mail.png") no-repeat;
+ background-image: url(../images/icon_sprites.png);
+ background-repeat: no-repeat;
+ background-position: 0 -40px;
  width: 21px;
  height: 27px;
  float: left;
  margin-right: 20px;
-  margin-top: 10px;
+ margin-bottom: 30px;
+ top: 5px;
+ position: relative;
  }
  #contacts_phone{
- background: url("../images/contacts_phone.png") no-repeat;
- width: 15px;
- height: 27px;
+ background-image: url(../images/icon_sprites.png);
+ background-repeat: no-repeat;
+ background-position: -23px -40px;
+ width: 16px;
+ height: 24px;
  float: left;
  margin-right: 20px;
-  margin-top: 10px;
+ margin-bottom: 30px;
+ top: 5px;
+ position: relative;
  }
  #contacts_time_img{
- background: url("../images/contacts_time.png") no-repeat;
- width: 17px;
- height: 68px;
+ background-image: url(../images/icon_sprites.png);
+ background-repeat: no-repeat;
+ background-position: -54px -43px;
+ width: 18px;
+ height: 19px;
  float: left;
  margin-right: 20px;
-  margin-top: 10px;
+ margin-bottom: 50px;
+ top: 8px;
+ position: relative;
  }
 .day_week{
  color: #a0763a;
  }
- .social_contacts{
+ .social_contacts_wrapper{
  text-align: left;
  margin-top: 40px;
  }
-  .social_contacts img {
+ .social_contacts_icon{
  margin-right: 10px;
  white-space: nowrap;
+ background-image: url(../images/icon_sprites.png);
+ background-repeat: no-repeat;
+ width: 40px;
+ height: 40px;
+ display: inline-block;
  }
+ #fb{background-position: -120px 0;}
+ #twitter{background-position: -280px 0;}
+ #dribble{background-position: -80px 0;}
+ #behance{background-position: -40px 0;}
+ #linkedin{background-position: -200px 0;}
+ #google{background-position: 0 0;}
+ #youtube{background-position: -160px 0;}
+ #twitch{background-position: -240px 0;}
+ 
  /*---------FORM----------*/
  .form_wrapper {
  text-align: left;
