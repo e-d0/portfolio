@@ -1,0 +1,549 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 80, ../img/*.png */
+.img-sprite, .img-arrow-left, .nav-left, .img-arrow-right, .nav-right, .img-basket, .b-head__basket_image, .img-search_glass, .b-head__search_image, .img-white_circle {
+  background-image: url('../img/img-s7a15fa4f47.png');
+  background-repeat: no-repeat;
+}
+
+/* line 84, ../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.img-arrow-left, .nav-left {
+  background-position: 0 0;
+}
+
+/* line 84, ../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.img-arrow-right, .nav-right {
+  background-position: 0 -88px;
+}
+
+/* line 84, ../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.img-basket, .b-head__basket_image {
+  background-position: 0 -176px;
+}
+
+/* line 84, ../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.img-search_glass, .b-head__search_image {
+  background-position: 0 -213px;
+}
+
+/* line 84, ../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.img-white_circle {
+  background-position: 0 -235px;
+}
+
+/*font-family: 'Lobster', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Economica', sans-serif;*/
+/* line 64, ../sass/screen.scss */
+.b-page {
+  text-align: center;
+}
+
+/* line 67, ../sass/screen.scss */
+.b-page__line {
+  padding: 0px;
+  overflow: hidden;
+}
+
+/* line 71, ../sass/screen.scss */
+.b-page_head {
+  max-width: 1150px;
+  height: 82px;
+}
+
+/* line 75, ../sass/screen.scss */
+.b-page__head_wrapper {
+  background: white;
+  padding: 23px 125px 23px 125px;
+}
+
+/* line 79, ../sass/screen.scss */
+.b-head__logo {
+  float: left;
+  position: relative;
+}
+
+/* line 83, ../sass/screen.scss */
+.b-head__logo_logo {
+  font-family: 'Lobster', cursive;
+  font-size: 38px;
+  color: #3cc3b5;
+  display: inline-block;
+}
+
+/* line 87, ../sass/screen.scss */
+.b-head__basket {
+  display: inline-block;
+  float: right;
+}
+
+/* line 91, ../sass/screen.scss */
+.b-head__basket_image {
+  height: 37px;
+  width: 41px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 98, ../sass/screen.scss */
+.b-head__basket_price {
+  font-family: 'Economica', sans-serif;
+  font-size: 10mm;
+  text-transform: uppercase;
+  color: #afafaf;
+  font-weight: 700;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 103, ../sass/screen.scss */
+.b-head__search {
+  max-width: 435px;
+  height: 33px;
+  border: 2px solid #afafaf;
+  margin: 0px auto;
+  display: inline-block;
+}
+
+/* line 111, ../sass/screen.scss */
+.b-head__search_image {
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+/* line 119, ../sass/screen.scss */
+.b-input_search {
+  height: 30px;
+  width: 400px;
+  border: none;
+  display: inline-block;
+  padding: 0px;
+}
+
+/*-------Nav menu block--------*/
+/* line 127, ../sass/screen.scss */
+.b-nav-menu_wrapper {
+  padding: 10px 125px 10px 125px;
+  text-align: center;
+  background: #4ccfc1;
+}
+
+/* line 132, ../sass/screen.scss */
+.b-nav-menu {
+  width: 100%;
+  display: table;
+}
+
+/* line 136, ../sass/screen.scss */
+.b-nav-menu__item {
+  width: 0px;
+  display: table-cell;
+  border-right: 2px solid white;
+  white-space: nowrap;
+}
+/* line 141, ../sass/screen.scss */
+.b-nav-menu__item:last-child {
+  border-right: none;
+}
+/* line 144, ../sass/screen.scss */
+.b-nav-menu__item a {
+  text-decoration: none;
+  font-family: 'Economica', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+}
+
+/*--------b-switcher-slider------*/
+/* line 154, ../sass/screen.scss */
+.b-switcher-slider {
+  background: #3ec3b1;
+  box-shadow: inset 0px 5px 14px -8px rgba(0, 0, 0, 0.45);
+  max-height: 470px;
+}
+
+/* line 159, ../sass/screen.scss */
+.b-switcher-slides {
+  background: #3cc395;
+}
+
+/* line 162, ../sass/screen.scss */
+.b-switcher__item {
+  display: inline-block;
+  padding: 55px;
+}
+
+/* line 166, ../sass/screen.scss */
+.b-switcher__item-off {
+  display: none;
+}
+
+/* line 169, ../sass/screen.scss */
+.b-switcher__img {
+  margin-right: 90px;
+  float: left;
+  width: 300px;
+  height: 355px;
+}
+/* line 174, ../sass/screen.scss */
+.b-switcher__img img {
+  max-height: 100%;
+}
+
+/* line 178, ../sass/screen.scss */
+.b-switcher__switcher {
+  position: relative;
+  bottom: 50px;
+  left: 50%;
+}
+
+/* line 183, ../sass/screen.scss */
+.b-switcher__text {
+  text-align: left;
+}
+
+/* line 186, ../sass/screen.scss */
+.b-switcher-text__header {
+  font-size: 44px;
+  font-family: 'Economica', sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* line 193, ../sass/screen.scss */
+.switcher-text__button {
+  font-family: 'Economica', sans-serif;
+  font-size: 7.1mm;
+  text-transform: uppercase;
+}
+/* line 23, ../sass/screen.scss */
+.switcher-text__button a {
+  border-radius: 9px;
+  padding: 2.5mm 7.8mm 2.5mm 7.8mm;
+  border: 4px solid #fff;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* line 196, ../sass/screen.scss */
+.switcher-text__text {
+  display: block;
+  margin: 25px;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  line-height: 1.9;
+  width: 100%;
+}
+
+/* line 203, ../sass/screen.scss */
+.switcher-text__button {
+  padding: 25px 0px 25px 0px;
+}
+
+/* line 206, ../sass/screen.scss */
+.nav-left {
+  left: 10px;
+  top: 650px;
+}
+
+/* line 211, ../sass/screen.scss */
+.nav-right {
+  right: 10px;
+  top: 650px;
+}
+
+/* line 216, ../sass/screen.scss */
+.b-slider-nav li {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  float: left;
+  margin-right: 10px;
+}
+
+/* line 223, ../sass/screen.scss */
+#active {
+  background-color: white;
+}
+
+/* line 226, ../sass/screen.scss */
+#passive {
+  background-color: #cdcdcd;
+}
+
+/*------arrow-slider-block----*/
+/* line 230, ../sass/screen.scss */
+.b-arrow-slider {
+  padding: 20px;
+  height: 170px;
+  display: table;
+}
+
+/* line 235, ../sass/screen.scss */
+.b-arrow-slider__item {
+  display: table-cell;
+  border-right: 2px solid rgba(175, 175, 175, 0.4);
+  min-width: 320px;
+}
+/* line 239, ../sass/screen.scss */
+.b-arrow-slider__item:last-child {
+  border-right: none;
+}
+
+/* line 243, ../sass/screen.scss */
+.b-arrow-slider__img {
+  float: left;
+  height: 140px;
+  width: 180px;
+}
+/* line 247, ../sass/screen.scss */
+.b-arrow-slider__img img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* line 252, ../sass/screen.scss */
+.b-arrow-slider__text {
+  float: left;
+  text-align: left;
+  width: 30%;
+}
+
+/* line 257, ../sass/screen.scss */
+.nav-left, .nav-right {
+  position: absolute;
+  width: 33px;
+  height: 88px;
+}
+
+/* line 263, ../sass/screen.scss */
+.b-arrow-text__header {
+  font-family: 'Economica', sans-serif;
+  font-size: 10mm;
+  text-transform: uppercase;
+  color: #afafaf;
+  font-weight: 700;
+  margin: 30px;
+  margin-left: 0px;
+}
+
+/* line 268, ../sass/screen.scss */
+.b-arrow-text__button {
+  font-family: 'Economica', sans-serif;
+  font-size: 5.3mm;
+  text-transform: uppercase;
+}
+/* line 36, ../sass/screen.scss */
+.b-arrow-text__button a {
+  border-radius: 6px;
+  padding: 3.2mm 7.2mm 3.2mm 7.2mm;
+  background: #3cc395;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/*------------feaured products-------*/
+/* line 272, ../sass/screen.scss */
+.b-featured-products {
+  background: #3cbeb1;
+  text-align: left;
+  padding: 20px 170px 20px 170px;
+  font-family: 'Economica', sans-serif;
+  font-size: 10mm;
+  text-transform: uppercase;
+  color: #afafaf;
+  font-weight: 700;
+  color: #fff;
+  font-size: 7.4mm;
+  box-shadow: inset 0px 5px 14px -8px rgba(0, 0, 0, 0.45);
+}
+
+/*--------product-tablets--------*/
+/* line 282, ../sass/screen.scss */
+.b-page__product-tablets {
+  display: block;
+  padding: 50px 125px 50px 125px;
+  height: 100%;
+}
+
+/* line 287, ../sass/screen.scss */
+.b-tablet {
+  width: 20%;
+  height: 20%;
+  border-bottom: 7px solid #3cc395;
+  display: inline-block;
+  margin: 50px;
+  padding: 1%;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+}
+
+/* line 296, ../sass/screen.scss */
+.b-tablet__name {
+  font-family: 'Economica', sans-serif;
+  font-size: 10mm;
+  text-transform: uppercase;
+  color: #afafaf;
+  font-weight: 700;
+}
+
+/* line 300, ../sass/screen.scss */
+.b-tablet__price {
+  display: inline-block;
+  font-family: 'Economica', sans-serif;
+  font-size: 10mm;
+  text-transform: uppercase;
+  color: #afafaf;
+  font-weight: 700;
+  margin: 20px;
+}
+
+/* line 305, ../sass/screen.scss */
+.b-tablet__button {
+  display: inline-block;
+  font-family: 'Economica', sans-serif;
+  font-size: 5.3mm;
+  text-transform: uppercase;
+  margin: 10px;
+}
+/* line 36, ../sass/screen.scss */
+.b-tablet__button a {
+  border-radius: 6px;
+  padding: 3.2mm 7.2mm 3.2mm 7.2mm;
+  background: #3cc395;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* line 310, ../sass/screen.scss */
+.b-tablet__image {
+  height: 150px;
+  margin: auto;
+}
+/* line 313, ../sass/screen.scss */
+.b-tablet__image img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/*-------footer------*/
+/* line 319, ../sass/screen.scss */
+.b-footer__wrapper {
+  background: #3cc3b5;
+  color: #fff;
+  padding: 40px 175px 40px 175px;
+}
+
+/* line 324, ../sass/screen.scss */
+.b-footer {
+  display: table;
+  width: 100%;
+}
+
+/* line 328, ../sass/screen.scss */
+.b-footer__column {
+  display: table-cell;
+  text-align: left;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* line 334, ../sass/screen.scss */
+.b-footer__header {
+  text-decoration: none;
+  font-family: 'Economica', sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+/* line 343, ../sass/screen.scss */
+.b-footer__text {
+  width: 40%;
+  line-height: 1.7;
+  display: inline-block;
+}
+
+/*------copywright------*/
+/* line 349, ../sass/screen.scss */
+.b-copywright {
+  background: #2da89b;
+  color: #fff;
+  padding: 10px;
+}
